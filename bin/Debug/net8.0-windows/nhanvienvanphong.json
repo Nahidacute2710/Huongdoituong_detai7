@@ -1,0 +1,22 @@
+[
+  {
+    "manv": "VP001",
+    "tennv": "Dinh Hoang Nha",
+    "sodienthoai": "0123456789",
+    "buucuc": {
+      "mabc": "BC001",
+      "tenbuucuc": "B\u01B0u c\u1EE5c Qu\u1EADn 1",
+      "diachi": "12 Nguy\u1EC5n Tr\u00E3i, Qu\u1EADn 1, TP.HCM",
+      "dsnv": [
+        {
+          "buucuc": {}
+        },
+        {
+          "buucuc": {}
+        }
+      ]
+    },
+    "chucvu": "NPC",
+    "tenbuucuc": "B\u01B0u c\u1EE5c Qu\u1EADn 1"
+  }
+]

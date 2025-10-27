@@ -1,0 +1,16 @@
+[
+  {
+    "makh": "KG001",
+    "tenkh": "Nguy\u1EC5n V\u0103n A",
+    "sodienthoai": "0912345678",
+    "diachikhachgui": "123 \u0110\u01B0\u1EDDng L\u00EA L\u1EE3i, Qu\u1EADn 1, TP.HCM",
+    "Loai": "G\u1EEDi"
+  },
+  {
+    "makh": "KG002",
+    "tenkh": "Tr\u1EA7n Th\u1ECB B",
+    "sodienthoai": "0987654321",
+    "diachikhachgui": "45 Nguy\u1EC5n Hu\u1EC7, TP.\u0110\u00E0 N\u1EB5ng",
+    "Loai": "G\u1EEDi"
+  }
+]

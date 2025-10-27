@@ -1,0 +1,28 @@
+D:\Thành\Hướng đối tượng\Test Winform detai7\bin\Debug\net8.0-windows\Test Winform detai7.exe
+D:\Thành\Hướng đối tượng\Test Winform detai7\bin\Debug\net8.0-windows\Test Winform detai7.deps.json
+D:\Thành\Hướng đối tượng\Test Winform detai7\bin\Debug\net8.0-windows\Test Winform detai7.runtimeconfig.json
+D:\Thành\Hướng đối tượng\Test Winform detai7\bin\Debug\net8.0-windows\Test Winform detai7.dll
+D:\Thành\Hướng đối tượng\Test Winform detai7\bin\Debug\net8.0-windows\Test Winform detai7.pdb
+D:\Thành\Hướng đối tượng\Test Winform detai7\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.csproj.AssemblyReference.cache
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.DanhSach.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoKhachGui.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoKhachNhan.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoNhanVienVP.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoTaiXe.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.Properties.Resources.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.csproj.GenerateResource.cache
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.AssemblyInfoInputs.cache
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.AssemblyInfo.cs
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.csproj.CoreCompileInputs.cache
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Win.4B29CC8B.Up2Date
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.dll
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\refint\Test Winform detai7.dll
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.pdb
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.genruntimeconfig.cache
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\ref\Test Winform detai7.dll
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoDonHang.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoSanPham.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoVanChuyen.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoThanhToan.resources

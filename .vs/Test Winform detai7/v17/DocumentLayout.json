@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|d:\\th\u00E0nh\\h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\test winform detai7\\infovanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:infovanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\infovanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:infovanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|d:\\th\u00E0nh\\h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\test winform detai7\\infonhanvienvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:infonhanvienvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\bin\\Debug\\net8.0-windows\\taixe.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0-windows\\taixe.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|d:\\th\u00E0nh\\h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\test winform detai7\\modalview\\buucucview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:modalview\\buucucview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|d:\\th\u00E0nh\\h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\test winform detai7\\modalview\\taixeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:modalview\\taixeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|d:\\th\u00E0nh\\h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\test winform detai7\\danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\infodonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:infodonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|d:\\th\u00E0nh\\h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\test winform detai7\\infodonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A853385D-6EE0-4E52-B93D-A79374663E48}|Test Winform detai7.csproj|solutionrelative:infodonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InfoDonHang.cs",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoDonHang.cs",
+              "RelativeDocumentMoniker": "InfoDonHang.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoDonHang.cs",
+              "RelativeToolTip": "InfoDonHang.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T16:33:36.66Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InfoDonHang.cs [Design]",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoDonHang.cs",
+              "RelativeDocumentMoniker": "InfoDonHang.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoDonHang.cs [Design]",
+              "RelativeToolTip": "InfoDonHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:47:15.361Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DanhSach.cs",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\DanhSach.cs",
+              "RelativeDocumentMoniker": "DanhSach.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\DanhSach.cs",
+              "RelativeToolTip": "DanhSach.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAawJoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:46:12.084Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DanhSach.cs [Design]",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\DanhSach.cs",
+              "RelativeDocumentMoniker": "DanhSach.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\DanhSach.cs [Design]",
+              "RelativeToolTip": "DanhSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:39:53.374Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "taixe.json",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\bin\\Debug\\net8.0-windows\\taixe.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0-windows\\taixe.json",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\bin\\Debug\\net8.0-windows\\taixe.json",
+              "RelativeToolTip": "bin\\Debug\\net8.0-windows\\taixe.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T01:55:14.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaiXeView.cs",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\modalview\\TaiXeView.cs",
+              "RelativeDocumentMoniker": "modalview\\TaiXeView.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\modalview\\TaiXeView.cs",
+              "RelativeToolTip": "modalview\\TaiXeView.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T17:57:52.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuuCucView.cs",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\modalview\\BuuCucView.cs",
+              "RelativeDocumentMoniker": "modalview\\BuuCucView.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\modalview\\BuuCucView.cs",
+              "RelativeToolTip": "modalview\\BuuCucView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T17:54:45.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfoNhanVienVP.cs",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoNhanVienVP.cs",
+              "RelativeDocumentMoniker": "InfoNhanVienVP.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoNhanVienVP.cs",
+              "RelativeToolTip": "InfoNhanVienVP.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAArwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T17:43:12.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InfoVanChuyen.cs [Design]",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoVanChuyen.cs",
+              "RelativeDocumentMoniker": "InfoVanChuyen.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoVanChuyen.cs [Design]",
+              "RelativeToolTip": "InfoVanChuyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T17:18:29.637Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfoVanChuyen.cs",
+              "DocumentMoniker": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoVanChuyen.cs",
+              "RelativeDocumentMoniker": "InfoVanChuyen.cs",
+              "ToolTip": "D:\\Th\u00E0nh\\H\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng\\Test Winform detai7\\InfoVanChuyen.cs",
+              "RelativeToolTip": "InfoVanChuyen.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T13:47:53.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
