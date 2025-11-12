@@ -26,3 +26,5 @@ D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\
 D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoSanPham.resources
 D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoVanChuyen.resources
 D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoThanhToan.resources
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test Winform detai7.sourcelink.json
+D:\Thành\Hướng đối tượng\Test Winform detai7\obj\Debug\net8.0-windows\Test_Winform_detai7.InfoBuuCuc.resources

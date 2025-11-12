@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class NhanVien
     {
         private string manv;
         private string tennv;
         private string sodienthoai;
-        public BuuCuc buucuc { get; private set; }
-
+        private string email;
+        private string mabuucuc;
         public void setMaNV(string MaNV)
         {
             this.manv = MaNV;
@@ -37,13 +37,21 @@ namespace Test_Winform_detai7.modal
         {
             return this.sodienthoai;
         }
-        public void setBC(BuuCuc BuuCuc)
+        public void setEmail(string Email)
         {
-            this.buucuc = BuuCuc;
+            this.email = Email;
         }
-        public BuuCuc getBC()
+        public string getEmail()
         {
-            return this.buucuc;
+            return this.email;
+        }
+        public void setmaBC(string MaBC)
+        {
+            this.mabuucuc = MaBC;
+        }
+        public string getmaBC()
+        {
+            return this.mabuucuc;
         }
         
         public NhanVien()
@@ -51,23 +59,24 @@ namespace Test_Winform_detai7.modal
             this.manv = "null";
             this.tennv = "null";
             this.sodienthoai = "null";
-            this.buucuc = new BuuCuc();
+            this.email = "null";
+            this.mabuucuc="null";
         }
-        public NhanVien(string ma, string ten, string sdt, BuuCuc BC)
+        public NhanVien(string ma, string ten, string sdt,string e, string MaBC)
         {
             this.manv = ma;
             this.tennv = ten;
             this.sodienthoai = sdt;
-            this.buucuc = BC;
+            this.email = e;
+            this.mabuucuc = MaBC;
         }
-        
         public override string ToString()
         {
             return "\nMã nhân viên: " + this.manv
                 + "\nTên nhân viên: " + this.tennv
                 + "\nSố điện thoại: " + this.sodienthoai
-                + $"\nBưu cục : {buucuc.getMaBC()} ở {buucuc.getTenBuuCuc()}";
+                + "\nEmail: " + this.email
+                + "\nMã bưu cục: " + this.mabuucuc;
         }
-        //Cần thêm bưu cục
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class TaiXe : NhanVien
     {
@@ -31,7 +31,7 @@ namespace Test_Winform_detai7.modal
             this.bienSoXe = "null";
             this.loaiXe = "null";
         }
-        public TaiXe(string ma, string ten, string sdt, string bsx, string lx, BuuCuc bc) : base(ma, ten, sdt, bc)
+        public TaiXe(string ma, string ten, string sdt,string e, string bsx, string lx, string MaBC) : base(ma, ten, sdt,e,MaBC)
         {
             this.bienSoXe = bsx;
             this.loaiXe = lx;

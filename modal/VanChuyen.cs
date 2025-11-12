@@ -4,49 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
-    internal class VanChuyen
+    public class VanChuyen
     {
         private string mavc;
-        private KhachGui khachgui;
-        private KhachNhan khachnhan;
-        private string hanhtrinh;
-        private DonHang dh;
+        private string madonhang;
         private string trangThaiDh;
-        private TaiXe tx;
+        private string mataixe;
         private string trangThaiTx;
+        private string makhachgui;
+        private string makhachnhan;
+        private string hanhtrinh;
         private DateTime ngaybatdau;
         private DateTime ngayketthucdukien;
         private string takenote;
-        public VanChuyen()
-        {
-            this.mavc = "null";
-            this.khachgui = new KhachGui();
-            this.khachnhan = new KhachNhan();
-            this.hanhtrinh = "null";
-            this.dh = new DonHang();
-            this.trangThaiDh = "null";
-            this.tx = new TaiXe();
-            this.trangThaiTx = "null";
-            this.ngaybatdau = DateTime.Now;
-            this.ngayketthucdukien = DateTime.Now;
-            this.takenote = "null";
-        }
-        public VanChuyen(string maVC, KhachHang KG, KhachHang KN, string HanhTrinh, DonHang DH, string TTDH, TaiXe TX, string TTTX, DateTime NgayBatDau, DateTime NgayKetThuc, string note)
-        {
-            this.mavc = maVC;
-            this.khachgui = (KhachGui)KG;
-            this.khachnhan = (KhachNhan)KN;
-            this.hanhtrinh = HanhTrinh;
-            this.dh = DH;
-            this.trangThaiDh = TTDH;
-            this.tx = TX;
-            this.trangThaiTx = TTTX;
-            this.ngaybatdau = NgayBatDau;
-            this.ngayketthucdukien = NgayKetThuc;
-            this.takenote = note;
-        }
         public void setMaVC(string maVC)
         {
             this.mavc = maVC;
@@ -55,45 +27,13 @@ namespace Test_Winform_detai7.modal
         {
             return this.mavc;
         }
-        public void setKhachGui(KhachGui KG)
+        public void setmaDonHang(string maDH)
         {
-            this.khachgui = KG;
+            this.madonhang = maDH;
         }
-        public KhachGui getKhachGui()
+        public string getmaDonHang()
         {
-            return this.khachgui;
-        }
-        public void setKhachNhan(KhachNhan KN)
-        {
-            this.khachnhan = KN;
-        }
-        public KhachNhan getKhachNhan()
-        {
-            return this.khachnhan;
-        }
-        public void setHanhTrinh(string HanhTrinh)
-        {
-            this.hanhtrinh = HanhTrinh;
-        }
-        public string getHanhTrinh()
-        {
-            return this.hanhtrinh;
-        }
-        public void setDonHang(DonHang DH)
-        {
-            this.dh = DH;
-        }
-        public DonHang getDonHang()
-        {
-            return this.dh;
-        }
-        public void setTaiXe(TaiXe TX)
-        {
-            this.tx = TX;
-        }
-        public TaiXe getTaiXe()
-        {
-            return this.tx;
+            return this.madonhang;
         }
         public void setTrangThaiDh(string TTDH)
         {
@@ -103,6 +43,14 @@ namespace Test_Winform_detai7.modal
         {
             return this.trangThaiDh;
         }
+        public void setMaTaiXe(string maTX)
+        {
+            this.mataixe = maTX;
+        }
+        public string getMaTaiXe()
+        {
+            return this.mataixe;
+        }
         public void setTrangThaiTx(string TTTX)
         {
             this.trangThaiTx = TTTX;
@@ -110,6 +58,30 @@ namespace Test_Winform_detai7.modal
         public string getTrangThaiTx()
         {
             return this.trangThaiTx;
+        }
+        public void setMaKhachGui(string maKG)
+        {
+            this.makhachgui = maKG;
+        }
+        public string getMaKhachGui()
+        {
+            return this.makhachgui;
+        }
+        public void setMaKhachNhan(string maKN)
+        {
+            this.makhachnhan = maKN;
+        }
+        public string getMaKhachNhan()
+        {
+            return this.makhachnhan;
+        }
+        public void setHanhTrinh(string HanhTrinh)
+        {
+            this.hanhtrinh = HanhTrinh;
+        }
+        public string getHanhTrinh()
+        {
+            return this.hanhtrinh;
         }
         public void setNgayBatDau(DateTime NgayBatDau)
         {
@@ -135,17 +107,46 @@ namespace Test_Winform_detai7.modal
         {
             return this.takenote;
         }
+        public VanChuyen()
+        {
+            this.mavc = "null";
+            this.madonhang = "null";
+            this.trangThaiDh = "null";
+            this.mataixe = "null";
+            this.trangThaiTx = "null";
+            this.makhachgui = "null";
+            this.makhachnhan = "null";
+            this.hanhtrinh = "null";
+            this.ngaybatdau = DateTime.Now;
+            this.ngayketthucdukien = DateTime.Now;
+            this.takenote = "null";
+        }
+        public VanChuyen(string maVC,string MaDH,string TTDH,string MaTX,string TTTX,string MaKG,string MaKN,string HanhTrinh, DateTime NgayBatDau, DateTime NgayKetThuc, string note)
+        {
+            this.mavc = maVC;
+            this.madonhang = MaDH;
+            this.trangThaiDh = TTDH;
+            this.mataixe = MaTX;
+            this.trangThaiTx = TTTX;
+            this.makhachgui = MaKG;
+            this.makhachnhan = MaKN;
+            this.hanhtrinh = HanhTrinh;
+            this.ngaybatdau = NgayBatDau;
+            this.ngayketthucdukien = NgayKetThuc;
+            this.takenote = note;
+        }
         public override string ToString()
         {
             return $"Mã Vận Chuyển: {this.mavc} \n" +
-                   $"Khách Gửi: {this.khachgui.InfoKhach()} \n " +
-                   $"Khách Nhận: {this.khachnhan.InfoKhach()} \n " +
-                   //$"Hành Trình: ->{this.khachnhan.getDiaChiNhan()}\n" +
-                   $"Tài Xế: {this.tx.ToString()} \n" +
-                   $"Trạng Thái Tài Xế: {this.trangThaiTx}\n " +
-                   $"Đơn Hàng: {this.dh.ToString()} \n " +
+                   $"Đơn Hàng: {this.madonhang} \n " +
                    $"Trạng Thái Đơn Hàng: {this.trangThaiDh}\n " +
-                   $"Ngày Bắt Đầu: {ngaybatdau.ToString("dd/MM/yyyy")}, Ngày Kết Thúc (dự kiến): {ngayketthucdukien.ToString("dd/MM/yyyy")} \n " +
+                   $"Tài Xế: {this.mataixe} \n" +
+                   $"Trạng Thái Tài Xế: {this.trangThaiTx}\n " +
+                   $"Mã Khách Gửi: {this.makhachgui} \n " +
+                   $"Mã Khách Nhận: {this.makhachnhan} \n " +
+                   $"Hành Trình: {this.hanhtrinh} \n " +
+                   $"Ngày Bắt Đầu: {ngaybatdau.ToString("dd/MM/yyyy")}," +
+                   $"Ngày Kết Thúc (dự kiến): {ngayketthucdukien.ToString("dd/MM/yyyy")} \n " +
                    $"Ghi Chú: {this.takenote}";
         }
     }

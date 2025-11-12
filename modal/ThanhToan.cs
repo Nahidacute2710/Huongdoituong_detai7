@@ -5,13 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class ThanhToan
     {
         private string mathanhtoan;
-        private DonHang madonhang;
-        private double thanhtien;
+        private string madonhang;
         private string phuongthucthanhtoan;
         private DateTime ngaythanhtoan;
         private string trangthaithanhtoan;
@@ -24,21 +23,13 @@ namespace Test_Winform_detai7.modal
         {
             return this.mathanhtoan;
         }
-        public void setMaDonHang(DonHang DH)
+        public void setMaDonHang(string MaDH)
         {
-            this.madonhang = DH;
+            this.madonhang = MaDH;
         }
-        public DonHang getMaDonHang()
+        public string getMaDonHang()
         {
             return this.madonhang;
-        }
-        public void setThanhTien(double TT)
-        {
-            this.thanhtien = TT;
-        }
-        public double getThanhTien()
-        {
-            return this.thanhtien;
         }
         public void setPTTT(string PT)
         {
@@ -67,17 +58,15 @@ namespace Test_Winform_detai7.modal
         public ThanhToan()
         {
             this.mathanhtoan = "null";
-            this.madonhang = new DonHang();
-            this.thanhtien = 0;
+            this.madonhang = "null";
             this.phuongthucthanhtoan = "null";
             this.ngaythanhtoan = DateTime.Now;
             this.trangthaithanhtoan = "null";
         }
-        public ThanhToan(string MaTT, DonHang DH, string PhuongThucThanhToan, DateTime NgayThanhToan, string TrangThaiThanhToan)
+        public ThanhToan(string MaTT, string MaDH, string PhuongThucThanhToan, DateTime NgayThanhToan, string TrangThaiThanhToan)
         {
             this.mathanhtoan = MaTT;
-            this.madonhang = DH;
-            this.thanhtien = madonhang.getGTHH() + madonhang.getPhiVanChuyen();
+            this.madonhang = MaDH;
             this.phuongthucthanhtoan = PhuongThucThanhToan;
             this.ngaythanhtoan = NgayThanhToan;
             this.trangthaithanhtoan = TrangThaiThanhToan;
@@ -85,8 +74,7 @@ namespace Test_Winform_detai7.modal
         public override string ToString()
         {
             return "Mã thanh toán: " + this.mathanhtoan + "\n" +
-            "Mã đơn hàng: " + this.madonhang.ToString() + "\n" +
-            "Thành tiền: " + this.thanhtien + "\n" +
+            "Dơn hàng: " + this.madonhang + "\n" +
             "Phương thức thanh toán: " + this.phuongthucthanhtoan + "\n" +
             "Ngày thanh toán: " + this.ngaythanhtoan.ToString("dd/MM/yyyy") + "\n" +
             "Trạng thái thanh toán: " + this.trangthaithanhtoan + "\n";

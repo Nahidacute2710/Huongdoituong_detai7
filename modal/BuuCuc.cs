@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class BuuCuc
     {
         private string mabc;
         private string tenbuucuc;
         private string diachi;
-        private List<NhanVien> dsnv;
-
         public void setMaBC(string MaBC)
         {
             this.mabc = MaBC;
@@ -37,35 +35,23 @@ namespace Test_Winform_detai7.modal
         {
             return this.diachi;
         }
-        public void Add_NhanVien(NhanVien NhanVien)
-        {
-            dsnv.Add(NhanVien);
-        }
-        public List<NhanVien> getDSNV()
-        {
-            return dsnv;
-        }
         public BuuCuc()
         {
             this.mabc = "null";
             this.tenbuucuc = "null";
             this.diachi = "null";
-            this.dsnv = new List<NhanVien>();
         }
-
-
 
         public BuuCuc(string ma, string ten, string dc)
         {
             this.mabc = ma;
             this.tenbuucuc = ten;
             this.diachi = dc;
-            this.dsnv = new List<NhanVien>(); // nhớ khởi tạo danh sách để tránh null
         }
         public override string ToString()
         {
-            return $"{mabc ?? "Chưa có mã"} - {tenbuucuc ?? "Chưa có tên"}";
+            string in4 = $"Mã Bưu Cục: {this.mabc}, Tên Bưu Cục: {this.tenbuucuc}, Địa Chỉ: {this.diachi}\n";
+            return in4;
         }
-    
     }
 }

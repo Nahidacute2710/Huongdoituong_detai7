@@ -1,0 +1,376 @@
+{
+  "danhsach_sanpham": [
+    {
+      "masanpham": "SP001",
+      "tensanpham": "Laptop Dell",
+      "soluong": 1,
+      "giatri": 20000000,
+      "tinhchat": "\u0110i\u1EC7n t\u1EED",
+      "madonhang": "DH001"
+    },
+    {
+      "masanpham": "SP002",
+      "tensanpham": "Chu\u1ED9t m\u00E1y t\u00EDnh",
+      "soluong": 2,
+      "giatri": 500000,
+      "tinhchat": "Ph\u1EE5 ki\u1EC7n",
+      "madonhang": "DH001"
+    },
+    {
+      "masanpham": "SP003",
+      "tensanpham": "Tai nghe Bluetooth",
+      "soluong": 1,
+      "giatri": 1500000,
+      "tinhchat": "Ph\u1EE5 ki\u1EC7n",
+      "madonhang": "DH001"
+    },
+    {
+      "masanpham": "SP004",
+      "tensanpham": "\u0110i\u1EC7n tho\u1EA1i Samsung",
+      "soluong": 1,
+      "giatri": 18000000,
+      "tinhchat": "\u0110i\u1EC7n t\u1EED",
+      "madonhang": "DH002"
+    },
+    {
+      "masanpham": "SP005",
+      "tensanpham": "\u1ED0p \u0111i\u1EC7n tho\u1EA1i",
+      "soluong": 3,
+      "giatri": 300000,
+      "tinhchat": "Ph\u1EE5 ki\u1EC7n",
+      "madonhang": "DH002"
+    },
+    {
+      "masanpham": "SP006",
+      "tensanpham": "M\u00E1y in Canon",
+      "soluong": 1,
+      "giatri": 7000000,
+      "tinhchat": "V\u0103n ph\u00F2ng",
+      "madonhang": "DH003"
+    },
+    {
+      "masanpham": "SP007",
+      "tensanpham": "Gi\u1EA5y in A4",
+      "soluong": 5,
+      "giatri": 500000,
+      "tinhchat": "V\u0103n ph\u00F2ng",
+      "madonhang": "DH003"
+    },
+    {
+      "masanpham": "SP008",
+      "tensanpham": "USB 64GB",
+      "soluong": 2,
+      "giatri": 600000,
+      "tinhchat": "Ph\u1EE5 ki\u1EC7n",
+      "madonhang": "DH003"
+    },
+    {
+      "masanpham": "SP009",
+      "tensanpham": "TV Samsung 50inch",
+      "soluong": 1,
+      "giatri": 12000000,
+      "tinhchat": "\u0110i\u1EC7n t\u1EED",
+      "madonhang": "DH004"
+    },
+    {
+      "masanpham": "SP010",
+      "tensanpham": "Loa Bluetooth Sony",
+      "soluong": 1,
+      "giatri": 3000000,
+      "tinhchat": "\u0110i\u1EC7n t\u1EED",
+      "madonhang": "DH004"
+    }
+  ],
+  "danhsach_donhang": [
+    {
+      "madonhang": "DH001",
+      "ngaytao": "2024-01-10T08:30:00",
+      "makhachgui": "KG001",
+      "makhachnhan": "KN001",
+      "khoiluong": 10,
+      "TrangThai": "Giao th\u00E0nh c\u00F4ng",
+      "danhsachsanpham": []
+    },
+    {
+      "madonhang": "DH002",
+      "ngaytao": "2024-02-15T09:00:00",
+      "makhachgui": "KG002",
+      "makhachnhan": "KN002",
+      "khoiluong": 15,
+      "TrangThai": "Giao th\u00E0nh c\u00F4ng",
+      "danhsachsanpham": []
+    },
+    {
+      "madonhang": "DH003",
+      "ngaytao": "2024-03-20T10:15:00",
+      "makhachgui": "KG003",
+      "makhachnhan": "KN003",
+      "khoiluong": 5,
+      "TrangThai": "\u0110\u00E3 l\u00EAn h\u00E0ng",
+      "danhsachsanpham": []
+    },
+    {
+      "madonhang": "DH004",
+      "ngaytao": "2024-04-25T11:45:00",
+      "makhachgui": "KG004",
+      "makhachnhan": "KN004",
+      "khoiluong": 36,
+      "TrangThai": "\u0110ang l\u1EA5y h\u00E0ng",
+      "danhsachsanpham": []
+    }
+  ],
+  "danhsach_khachgui": [
+    {
+      "makh": "KG001",
+      "tenkh": "Nguy\u1EC5n V\u0103n A",
+      "sodienthoai": "0909123001",
+      "email": "a1@gmail.com",
+      "diachikhachgui": "H\u00E0 N\u1ED9i",
+      "pickhachgui": null
+    },
+    {
+      "makh": "KG002",
+      "tenkh": "Tr\u1EA7n Th\u1ECB B",
+      "sodienthoai": "0909123002",
+      "email": "a2@gmail.com",
+      "diachikhachgui": "TP.HCM",
+      "pickhachgui": null
+    },
+    {
+      "makh": "KG003",
+      "tenkh": "L\u00EA V\u0103n C",
+      "sodienthoai": "0909123003",
+      "email": "a3@gmail.com",
+      "diachikhachgui": "H\u1EA3i Ph\u00F2ng",
+      "pickhachgui": null
+    },
+    {
+      "makh": "KG004",
+      "tenkh": "Ph\u1EA1m Th\u1ECB D",
+      "sodienthoai": "0909123004",
+      "email": "a4@gmail.com",
+      "diachikhachgui": "\u0110\u00E0 N\u1EB5ng",
+      "pickhachgui": null
+    },
+    {
+      "makh": "KG851",
+      "tenkh": "3",
+      "sodienthoai": "23",
+      "email": "234",
+      "diachikhachgui": "32",
+      "pickhachgui": null
+    }
+  ],
+  "danhsach_khachnhan": [
+    {
+      "makh": "KN001",
+      "tenkh": "Ho\u00E0ng V\u0103n E",
+      "sodienthoai": "0909123005",
+      "email": "b1@gmail.com",
+      "diachikhachnhan": "C\u1EA7n Th\u01A1",
+      "pickhachnhan": null
+    },
+    {
+      "makh": "KN002",
+      "tenkh": "\u0110\u1ED7 Th\u1ECB F",
+      "sodienthoai": "0909123006",
+      "email": "b2@gmail.com",
+      "diachikhachnhan": "Nha Trang",
+      "pickhachnhan": null
+    },
+    {
+      "makh": "KN003",
+      "tenkh": "V\u0169 V\u0103n G",
+      "sodienthoai": "0909123007",
+      "email": "b3@gmail.com",
+      "diachikhachnhan": "Hu\u1EBF",
+      "pickhachnhan": null
+    },
+    {
+      "makh": "KN004",
+      "tenkh": "Ng\u00F4 Th\u1ECB H",
+      "sodienthoai": "0909123008",
+      "email": "b4@gmail.com",
+      "diachikhachnhan": "L\u00E2m \u0110\u1ED3ng",
+      "pickhachnhan": null
+    }
+  ],
+  "danhsach_buucuc": [
+    {
+      "mabc": "BC001",
+      "tenbuucuc": "B\u01B0u C\u1EE5c H\u00E0 N\u1ED9i",
+      "diachi": "123 Tr\u1EA7n H\u01B0ng \u0110\u1EA1o, H\u00E0 N\u1ED9i",
+      "pickbuucuc": null
+    },
+    {
+      "mabc": "BC002",
+      "tenbuucuc": "B\u01B0u C\u1EE5c H\u1ED3 Ch\u00ED Minh",
+      "diachi": "456 Nguy\u1EC5n Hu\u1EC7, TP.HCM",
+      "pickbuucuc": null
+    }
+  ],
+  "danhsach_taixe": [
+    {
+      "manv": "TX001",
+      "tennv": "T\u00E0i X\u1EBF A",
+      "sodienthoai": "0922222001",
+      "email": "c1@gmail.com",
+      "mabuucuc": "BC001",
+      "bienSoXe": "29A-11111",
+      "loaiXe": "Xe t\u1EA3i nh\u1ECF",
+      "pictaixe": null
+    },
+    {
+      "manv": "TX002",
+      "tennv": "T\u00E0i X\u1EBF B",
+      "sodienthoai": "0922222002",
+      "email": "c2@gmail.com",
+      "mabuucuc": "BC001",
+      "bienSoXe": "29A-22222",
+      "loaiXe": "Xe t\u1EA3i l\u1EDBn",
+      "pictaixe": null
+    },
+    {
+      "manv": "TX003",
+      "tennv": "T\u00E0i X\u1EBF C",
+      "sodienthoai": "0922222003",
+      "email": "c3@gmail.com",
+      "mabuucuc": "BC002",
+      "bienSoXe": "51B-33333",
+      "loaiXe": "Xe b\u00E1n t\u1EA3i",
+      "pictaixe": null
+    },
+    {
+      "manv": "TX004",
+      "tennv": "T\u00E0i X\u1EBF D",
+      "sodienthoai": "0922222004",
+      "email": "c4@gmail.com",
+      "mabuucuc": "BC002",
+      "bienSoXe": "51B-44444",
+      "loaiXe": "Xe t\u1EA3i nh\u1ECF",
+      "pictaixe": null
+    }
+  ],
+  "danhsach_nhanvienvanphong": [
+    {
+      "manv": "NVVP001",
+      "tennv": "Nguy\u1EC5n V\u0103n NV1",
+      "sodienthoai": "0911111001",
+      "email": "d1@gmail.com",
+      "mabuucuc": "BC001",
+      "chucvu": "Tr\u01B0\u1EDFng ph\u00F2ng",
+      "picnvvp": null
+    },
+    {
+      "manv": "NVVP002",
+      "tennv": "L\u00EA Th\u1ECB NV2",
+      "sodienthoai": "0911111002",
+      "email": "d2@gmail.com",
+      "mabuucuc": "BC002",
+      "chucvu": "Nh\u00E2n vi\u00EAn",
+      "picnvvp": null
+    },
+    {
+      "manv": "NVVP003",
+      "tennv": "Tr\u1EA7n V\u0103n NV3",
+      "sodienthoai": "0911111003",
+      "email": "d3@gmail.com",
+      "mabuucuc": "BC001",
+      "chucvu": "Nh\u00E2n vi\u00EAn",
+      "picnvvp": null
+    },
+    {
+      "manv": "NVVP090",
+      "tennv": "32",
+      "sodienthoai": "342",
+      "email": "324",
+      "mabuucuc": "BC002",
+      "chucvu": "32",
+      "picnvvp": null
+    }
+  ],
+  "danhsach_thanhtoan": [
+    {
+      "mathanhtoan": "TT001",
+      "madonhang": "DH001",
+      "phuongthucthanhtoan": "Ti\u1EC1n m\u1EB7t",
+      "ngaythanhtoan": "2024-01-10T12:00:00",
+      "trangthaithanhtoan": "\u0110\u00E3 thanh to\u00E1n"
+    },
+    {
+      "mathanhtoan": "TT002",
+      "madonhang": "DH002",
+      "phuongthucthanhtoan": "Chuy\u1EC3n kho\u1EA3n",
+      "ngaythanhtoan": "2024-02-15T14:00:00",
+      "trangthaithanhtoan": "\u0110\u00E3 thanh to\u00E1n"
+    },
+    {
+      "mathanhtoan": "TT003",
+      "madonhang": "DH003",
+      "phuongthucthanhtoan": "V\u00ED \u0111i\u1EC7n t\u1EED",
+      "ngaythanhtoan": "2024-03-20T16:00:00",
+      "trangthaithanhtoan": "Ch\u01B0a thanh to\u00E1n"
+    },
+    {
+      "mathanhtoan": "TT004",
+      "madonhang": "DH004",
+      "phuongthucthanhtoan": "Ti\u1EC1n m\u1EB7t",
+      "ngaythanhtoan": "2024-04-25T17:00:00",
+      "trangthaithanhtoan": "Ch\u01B0a thanh to\u00E1n"
+    }
+  ],
+  "danhsach_vanchuyen": [
+    {
+      "mavc": "VC001",
+      "madonhang": "DH001",
+      "trangThaiDh": "\u0110ang giao",
+      "mataixe": "TX001",
+      "trangThaiTx": "Ho\u1EA1t \u0111\u1ED9ng",
+      "makhachgui": "KG001",
+      "makhachnhan": "KN001",
+      "hanhtrinh": "H\u00E0 N\u1ED9i \u2192 C\u1EA7n Th\u01A1",
+      "ngaybatdau": "2024-01-10T09:00:00",
+      "ngayketthucdukien": "2024-01-12T18:00:00",
+      "takenote": "Giao \u0111\u00FAng ti\u1EBFn \u0111\u1ED9"
+    },
+    {
+      "mavc": "VC002",
+      "madonhang": "DH002",
+      "trangThaiDh": "\u0110ang giao",
+      "mataixe": "TX002",
+      "trangThaiTx": "Ho\u1EA1t \u0111\u1ED9ng",
+      "makhachgui": "KG002",
+      "makhachnhan": "KN002",
+      "hanhtrinh": "TP.HCM \u2192 Nha Trang",
+      "ngaybatdau": "2024-02-15T10:00:00",
+      "ngayketthucdukien": "2024-02-17T18:00:00",
+      "takenote": "H\u00E0ng d\u1EC5 v\u1EE1"
+    },
+    {
+      "mavc": "VC003",
+      "madonhang": "DH003",
+      "trangThaiDh": "Ch\u1EDD x\u1EED l\u00FD",
+      "mataixe": "TX003",
+      "trangThaiTx": "R\u1EA3nh",
+      "makhachgui": "KG003",
+      "makhachnhan": "KN003",
+      "hanhtrinh": "H\u1EA3i Ph\u00F2ng \u2192 Hu\u1EBF",
+      "ngaybatdau": "2024-03-20T11:00:00",
+      "ngayketthucdukien": "2024-03-22T19:00:00",
+      "takenote": "Ki\u1EC3m tra gi\u1EA5y t\u1EDD"
+    },
+    {
+      "mavc": "VC004",
+      "madonhang": "DH004",
+      "trangThaiDh": "\u0110ang giao",
+      "mataixe": "TX004",
+      "trangThaiTx": "Ho\u1EA1t \u0111\u1ED9ng",
+      "makhachgui": "KG004",
+      "makhachnhan": "KN004",
+      "hanhtrinh": "\u0110\u00E0 N\u1EB5ng \u2192 L\u00E2m \u0110\u1ED3ng",
+      "ngaybatdau": "2024-04-25T12:00:00",
+      "ngayketthucdukien": "2024-04-27T21:00:00",
+      "takenote": "Giao nhanh"
+    }
+  ]
+}

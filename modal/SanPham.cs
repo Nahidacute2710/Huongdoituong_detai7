@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class SanPham
     {
@@ -13,6 +13,7 @@ namespace Test_Winform_detai7.modal
         private int soluong;
         private double giatri;
         private string tinhchat;
+        private string madonhang;
         public void setMaSP(string MaSP)
         {
             this.masanpham = MaSP;
@@ -53,7 +54,14 @@ namespace Test_Winform_detai7.modal
         {
             return tinhchat;
         }
-
+        public void setMaDH(string MaDH)
+        {
+            this.madonhang = MaDH;
+        }
+        public string getMaDH()
+        {
+            return this.madonhang;
+        }
         public SanPham()
         {
             this.masanpham = "null";
@@ -61,15 +69,16 @@ namespace Test_Winform_detai7.modal
             this.soluong = 0;
             this.giatri = 0;
             this.tinhchat = "null";
+            this.madonhang = "null";
         }
-
-        public SanPham(string ma, string ten, string TinhChat, int sl, double gia)
+        public SanPham(string ma, string ten, string TinhChat, int sl, double gia,string MaDH)
         {
             this.masanpham = ma;
             this.tensanpham = ten;
             this.tinhchat = TinhChat;
             this.soluong = sl;
             this.giatri = gia;
+            this.madonhang = MaDH;
         }
         public override string ToString()
         {
@@ -78,7 +87,8 @@ namespace Test_Winform_detai7.modal
                    $"   Tên SP: {tensanpham}\n" +
                    $"   Tính chất : {tinhchat}\n" +
                    $"   Số lượng: {soluong}\n" +
-                   $"   Giá trị: {giatri}\n";
+                   $"   Giá trị: {giatri}\n" +
+                   $"   Mã Đơn Hàng: {madonhang}\n";
         }
     }
 }

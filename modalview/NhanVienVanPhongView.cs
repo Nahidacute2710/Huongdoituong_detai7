@@ -1,44 +1,38 @@
-﻿using System;
+﻿using OOP_De_tai_7.modal;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
-using System.IO;
-using System.Text.Json;
 using System.Threading.Tasks;
-using System.ComponentModel;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modalview
 {
     public class NhanVienVanPhongView
     {
-        public string manv {  get; set; }
+        public string manv { get; set; }
         public string tennv { get; set; }
         public string sodienthoai { get; set; }
-        [Browsable(false)]
-        public BuuCucView buucuc { get; set; }
+        public string email { get; set; }   
+        public string mabuucuc { get; set; }
         public string chucvu { get; set; }
-        public string tenbuucuc
-        {
-            get
-            {
-                return buucuc != null ? buucuc.tenbuucuc : "Chưa có";
-            }
-        }
+        public string picnvvp { get; set; }    
         public NhanVienVanPhongView()
         {
-            this.manv ="";
+            this.manv = "";
             this.tennv = "";
             this.sodienthoai = "";
-            this.buucuc = new BuuCucView();
+            this.email = "";
+            this.mabuucuc = "";
             this.chucvu = "";
         }
         public NhanVienVanPhongView(NhanVienVanPhong nvvp)
         {
-            NhanVien nv = new NhanVien();
             this.manv = nvvp.getMaNV();
             this.tennv = nvvp.getTenNV();
             this.sodienthoai = nvvp.getSDT();
-            this.buucuc = new BuuCucView(nvvp.getBC()); 
+            this.email = nvvp.getEmail();
+            this.mabuucuc = nvvp.getmaBC();
             this.chucvu = nvvp.getCV();
         }
     }

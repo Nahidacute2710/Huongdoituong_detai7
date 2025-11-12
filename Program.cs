@@ -1,6 +1,6 @@
-using Test_Winform_detai7.modal;
+using OOP_De_tai_7.modal;
 
-namespace Test_Winform_detai7
+namespace OOP_De_tai_7
 {
     internal static class Program
     {

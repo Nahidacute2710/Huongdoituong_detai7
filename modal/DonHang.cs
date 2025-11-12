@@ -4,17 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class DonHang
     {
         private string madonhang;
         private DateTime ngaytao;
-        private List<SanPhamView> danhsachsanpham;
-        private double chiphivanchuyen;
-        private double giatrihanghoa;
         private string makhachgui;
-        private string makhachnhan; 
+        private string makhachnhan;
+        private double khoiluong;//kg
         private string trangthai;
         public void setMaDH(string MaDH)
         {
@@ -32,96 +30,66 @@ namespace Test_Winform_detai7.modal
         {
             return this.ngaytao;
         }
-        public void setDSSP(List<SanPhamView> Dssp)
+        public void setMaKhachGui(string MaKG)
         {
-            this.danhsachsanpham = Dssp;
-        }
-        public List<SanPhamView> getDSSP()
-        {
-            return this.danhsachsanpham;
-        }
-        public void setGTHH(double gthh)
-        {
-            this.giatrihanghoa = gthh;
-        }
-        public double getGTHH()
-        {
-            return giatrihanghoa;
-        }
-        public void setMaKhachNhan(string makh)
-        {
-            this.makhachnhan = makh;
-        }
-        public string getMaKhachNhan()
-        {
-            return this.makhachnhan;
-        }
-        public void setPhiVanChuyen(double phiVanChuyen)
-        {
-            this.chiphivanchuyen = phiVanChuyen;
-        }
-        public double getPhiVanChuyen()
-        {
-            return chiphivanchuyen;
-        }
-
-        public void setTrangThai(string tt)
-        {
-            this.trangthai = tt;
-        }
-        public string getTrangThai()
-        {
-            return this.trangthai;
+            this.makhachgui = MaKG;
         }
         public string getMaKhachGui()
         {
             return this.makhachgui;
         }
-        public void setMaKhachGui(string makh)
+        public void setMaKhachNhan(string MaKN)
         {
-            this.makhachgui = makh;
+            this.makhachnhan = MaKN;
+        }
+        public string getMaKhachNhan()
+        {
+            return this.makhachnhan;
+        }
+        public void setKhoiLuong(double KhoiLuong)
+        {
+            this.khoiluong = KhoiLuong;
+        }
+        public double getKhoiLuong()
+        {
+            return this.khoiluong;
+        }
+        public void setTrangThai(string TrangThai)
+        {
+            this.trangthai = TrangThai;
+        }
+        public string getTrangThai()
+        {
+            return this.trangthai;
         }
         public DonHang()
         {
             this.madonhang = "null";
             this.ngaytao = DateTime.Now;
-            this.danhsachsanpham = new List<SanPhamView>();
-            this.chiphivanchuyen = 0;
-            this.giatrihanghoa = 0;
             this.makhachgui = "null";
             this.makhachnhan = "null";
-            this.trangthai = "null";
+            this.khoiluong = 0.0;
+            this.trangthai = "Đang xử lý";
         }
 
-
-        public DonHang(string ma, DateTime date, List<SanPhamView> ds, double phi,string makhachgui,string makhachnhan, string tt)
+        public DonHang(string ma, DateTime date,string kg,string kn,double KL,string trangThai)
         {
             this.madonhang = ma;
             this.ngaytao = date;
-            this.danhsachsanpham = ds;
-            this.chiphivanchuyen = phi;
-            this.makhachgui = makhachgui;
-            this.makhachnhan = makhachnhan;
-            this.trangthai = tt;
-            foreach (SanPhamView pham in ds)
-            {
-                this.giatrihanghoa += pham.giatri * pham.soluong;
-            }
+            this.makhachgui = kg;
+            this.makhachnhan = kn;
+            this.khoiluong = KL;
+            this.trangthai = trangThai;
         }
         public override string ToString()
         {
-            string dsSp = "";
-            foreach (var sp in danhsachsanpham)
-            {
-                dsSp += sp.ToString();
-            }
-
             return $"=== Đơn Hàng ===\n" +
                    $"Mã ĐH: {madonhang}\n" +
                    $"Ngày tạo: {ngaytao}\n" +
-                   $"Phí vận chuyển: {chiphivanchuyen}\n" +
-                   $"Giá trị đơn hàng : {giatrihanghoa}\n" +
-                   $"Danh sách sản phẩm:\n{dsSp}";
+                   $"Mã Khách Gửi: {makhachgui}\n" +
+                   $"Mã Khách Nhận: {makhachnhan}\n" +
+                   $"Khối Lượng: {khoiluong} kg\n" +
+                   $"Trạng Thái: {trangthai}\n";
         }
     }
 }

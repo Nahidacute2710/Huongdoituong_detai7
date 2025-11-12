@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class NhanVienVanPhong : NhanVien
     {
@@ -17,8 +17,11 @@ namespace Test_Winform_detai7.modal
         {
             return this.chucvu;
         }
-        public NhanVienVanPhong() :base() { this.chucvu = ""; }
-        public NhanVienVanPhong(string ma, string ten, string sdt, BuuCuc BC,string CV) : base(ma, ten, sdt, BC)
+        public NhanVienVanPhong() :base() 
+        {
+            this.chucvu = ""; 
+        }
+        public NhanVienVanPhong(string ma, string ten, string sdt,string e,string CV,string MaBC) : base(ma, ten, sdt,e, MaBC)
         {
             this.chucvu = CV;
         }

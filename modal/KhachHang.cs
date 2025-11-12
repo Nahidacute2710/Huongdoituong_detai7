@@ -4,26 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class KhachHang
     {
         private string makhachhang;
         private string tenkhachhang;
         private string sodienthoai;
+        private string email;
 
         public KhachHang()
         {
             this.makhachhang = "null";
             this.tenkhachhang = "null";
             this.sodienthoai = "null";
+            this.email = "null";
         }
 
-        public KhachHang(string ma, string ten, string sdt)
+        public KhachHang(string ma, string ten, string sdt,string E)
         {
             this.makhachhang = ma;
             this.tenkhachhang = ten;
             this.sodienthoai = sdt;
+            this.email = E;
         }
         public void setMaKH(string MaKH)
         {
@@ -49,18 +52,21 @@ namespace Test_Winform_detai7.modal
         {
             return this.sodienthoai ;
         }
-        
+        public void setEmail(string E)
+        {
+            this.email = E;
+        }
+        public string getEmail()
+        {
+            return this.email;
+        }
         public virtual string InfoKhach()
         {
             return $"---Khách Hàng--- \n" +
                $"Mã KH: {this.makhachhang}\n" +
                $"Tên KH: {this.tenkhachhang}\n" +
-               $"SĐT: {this.sodienthoai}\n";
+               $"SĐT: {this.sodienthoai}\n"+
+               $"Email: {this.email}\n";
         }
-        public override string ToString()
-        {
-            return this.tenkhachhang;
-        }
-
     }
 }

@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Thành\\Hướng đối tượng\\Test Winform detai7\\Test Winform detai7.csproj",
-      "projectName": "Test Winform detai7",
-      "projectPath": "D:\\Thành\\Hướng đối tượng\\Test Winform detai7\\Test Winform detai7.csproj",
+      "projectUniqueName": "D:\\Thành\\Hướng đối tượng\\OOP_De_tai_7\\OOP_De_tai_7.csproj",
+      "projectName": "OOP_De_tai_7",
+      "projectPath": "D:\\Thành\\Hướng đối tượng\\OOP_De_tai_7\\OOP_De_tai_7.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Thành\\Hướng đối tượng\\Test Winform detai7\\obj\\",
+      "outputPath": "D:\\Thành\\Hướng đối tượng\\OOP_De_tai_7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

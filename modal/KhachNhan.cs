@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test_Winform_detai7.modal
+namespace OOP_De_tai_7.modal
 {
     public class KhachNhan : KhachHang
     {
@@ -21,7 +21,7 @@ namespace Test_Winform_detai7.modal
         {
             this.diachikhachnhan = "null";
         }
-        public KhachNhan(string ma, string ten, string sdt, string diaChiNhan) : base(ma, ten, sdt)
+        public KhachNhan(string ma, string ten, string sdt,string E, string diaChiNhan) : base(ma, ten, sdt,E)
         {
             this.diachikhachnhan = diaChiNhan;
         }
@@ -31,6 +31,7 @@ namespace Test_Winform_detai7.modal
                $"Mã KH: {base.getMaKH()}\n" +
                $"Tên KH: {base.getTenKH()}\n" +
                $"SĐT: {base.getSDT()}\n" +
+               $"Email: {base.getEmail()}\n" +
                $"Địa chỉ nhận: {this.diachikhachnhan}\n";
         }
     }
